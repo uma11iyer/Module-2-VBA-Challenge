@@ -55,6 +55,11 @@ Dim c As Range
         Next i
         
         Range("K2:K" & RowDisplay).NumberFormat = "0.00%"
+
+    Cells(2, 15) = "Greatest % Increase"
+    Cells(3, 15) = "Greatest % Decrease"
+    Cells(4, 15) = "Greatest Total Volume"
+
 Next ws
 
 End Sub
